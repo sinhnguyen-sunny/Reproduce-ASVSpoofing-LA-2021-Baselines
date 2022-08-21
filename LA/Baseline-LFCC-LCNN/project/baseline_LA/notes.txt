@@ -1,0 +1,9 @@
+Install Torch for Cuda 11.6
+1. Uninstall Old Torch
+conda uninstall pytorch
+pip uninstall torch torchvision torchaudio
+
+2. Install Torch for Cuda 11.8 from source
+pip install torch torchvision torchaudio --pre --extra-index-url https://download.pytorch.org/whl/nightly/cu116
+3. Install timm
+pip install timm
